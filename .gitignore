@@ -1,0 +1,36 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local development settings
+.vscode/
+.idea/
+
+# Large source datasets and generated CSV files
+data/**/*.csv
+data/raw/
+data/processed/
+
+# Local SQL Server database and backup files
+*.bak
+*.mdf
+*.ldf
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
